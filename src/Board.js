@@ -182,8 +182,8 @@
       var index = minorDiagonalColumnIndexAtFirstRow;
 
       for (var i = 0; i < matrix.length; i++) {
-        console.log('matrix[i] is ' + matrix[i]);
-        console.log('count is ' + count);
+        // console.log('matrix[i] is ' + matrix[i]);
+        // console.log('count is ' + count);
         var row = matrix[i];
         if (row[index] === 1) {
           count++;
